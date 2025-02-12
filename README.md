@@ -86,7 +86,7 @@ crud-project/
 ## 📬 Contact
 
 💻 **GitHub:** [sh22o](https://github.com/sh22o)  
-✉️ **Email:** your-email@example.com  
+✉️ **Email:** shereenwagdy214@gmail.com  
 
 
 ---
