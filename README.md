@@ -3,7 +3,11 @@
 🚀 **CRUD Application** - A simple project built with **Vanilla JavaScript, HTML, and CSS**, featuring **Create, Read, Update, and Delete (CRUD)** functionality. This project uses **LocalStorage** for data persistence and is deployed using **Surge**.
 
 --- 
-[screen-capture.webm](https://github.com/user-attachments/assets/42b1c47d-14c5-4b9b-aedc-ec00e76bee36) 
+
+
+https://github.com/user-attachments/assets/2fca1391-59d5-4915-9863-1f47e8127ca9
+
+
 --- 
 ## screenshot 
 ![pic](https://github.com/user-attachments/assets/31566b15-0592-45f1-9db5-a468604c9f60)
@@ -36,11 +40,11 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/crud-project.git
+   git clone https://github.com/sh22o/CRUD.git 
    ```
 2. **Navigate to the project folder:**
    ```bash
-   cd crud-project
+   cd CRUD
    ```
 3. **Open `index.html` in your browser**
 4. **Start adding, editing, and deleting items!**
@@ -49,7 +53,7 @@
 
 ## 🌍 Live Demo
 
-🔗 [View Live Project](https://your-project-name.surge.sh)
+🔗 [View Live Project](https://stormy-light.surge.sh/)
 
 ---
 
@@ -77,23 +81,13 @@ crud-project/
 
 ---
 
-## 📜 License
 
-This project is licensed under the **MIT License**.
-
----
-
-## 🤝 Contributing
-
-Feel free to submit **issues** or **pull requests** to improve this project.
-
----
 
 ## 📬 Contact
 
-💻 **GitHub:** [Your Username](https://github.com/your-username)  
+💻 **GitHub:** [sh22o](https://github.com/sh22o)  
 ✉️ **Email:** your-email@example.com  
-🚀 **Portfolio:** [your-portfolio.com](https://your-portfolio.com)
+
 
 ---
 
