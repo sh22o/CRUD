@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">   
+    <link rel="stylesheet" href="css/Style.css">
+   
+
+</head>
+<body> 
+    <!-- 
+        make a crud project 
+        1- creat product (add)
+        2- display product (represent)
+        3- update product 
+        4- delete product 
+        5- search product 
+    --> 
+      <div class="container">  
+        <div class="title text-center pt-3"> 
+            <h1> CRUD</h1>
+          <h4> Product Managment System</h4>   
+         
+        </div>
+        <!--iputs section -->
+           <div class=" w-75 m-auto py-4"> 
+           <!-- <label for="productName"> productName</label> -->
+            <input type="text"  class="form-control my-2 myinput" id="productName" placeholder="productName"> 
+            <!-- 
+            <label for="price"> Price</label> -->
+            <input type="text" class="form-control my-2 myinput" id="price" placeholder="price">
+           
+           <!-- 
+           <label for="productCatagry">productCatagry</label> -->
+           <input type="text" class="form-control my-2 myinput" id="productCatagry" placeholder="catagry">
+           <!-- 
+           <label for="productdes">product Description</label> --> 
+           <textarea type="text" class="form-control my-2 myinput" id="productdes" placeholder="textArea"></textarea>
+            
+
+           <button  id="MainBTN"onclick="AddProduct()"class=" btn text-white   mybutton my-3"> Add Product </button>
+        </div>   
+            <div class="search m-auto w-75 py-3">
+              <input type="text" class="form-control myinput " placeholder="search" onkeyup="Search(this.value)">
+            </div>
+             <!-- outputs section -->
+           <!--- tabel continer --> 
+           <div class="w-75 m-auto py-3"> 
+            <table class="table  table-borderless  mytable">
+                <thead class="text-white">
+                    <th>index </th> 
+                    <th>Name </th>  
+                    <th>price</th>
+                    <th>Catagry</th> 
+                    <th>Description</th> 
+                    <th>Update</th> 
+                    <th>Delete</th>
+                </thead> 
+                <tbody id="tableRow">
+                   
+                </tbody>
+            </table>
+           </div>
+
+
+
+
+      </div>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="js/main.js"></script>
+</body>
+</html>
